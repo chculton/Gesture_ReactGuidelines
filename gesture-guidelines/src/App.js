@@ -1,9 +1,9 @@
-
+import { MainComponent } from "./pages/MainContainer";
 
 function App() {
   return (
     <div>
-      Hello from Gesture
+      <MainComponent />
     </div>
   );
 }
