@@ -42,7 +42,7 @@ export class MainComponent extends Component
     render (){
         return (
             <div className={styles.main}>
-            <Card />
+            <Card ronism={this.state.data} getQuote={this.getSwansonQuote}/>
             </div>
         )
     }
