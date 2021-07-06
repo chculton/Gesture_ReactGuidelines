@@ -3,7 +3,8 @@ import React, {Component} from 'react';
 
 
 //local imports
-import styles from '../styles/MainComponent.module.css';
+import styles from '../styles/MainContainer.module.css';
+import Card from '../components/Card';
 
 
 export class MainComponent extends Component
@@ -11,7 +12,7 @@ export class MainComponent extends Component
     render (){
         return (
             <div className={styles.main}>
-            This is Main Component
+            <Card />
             </div>
         )
     }
